@@ -1,0 +1,38 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/Ambarella-Inc/cooper-runtime-skills
+note: >-
+  Provider-published Agent Skills for Cooper Foundry on-device development,
+  saved verbatim from the Ambarella-Inc/cooper-runtime-skills repository
+  (Apache-2.0). These are packaged for the Hermes agent framework
+  (external_dirs in ~/.hermes/config.yaml), not MCP. Ambarella publishes no
+  public REST API / OpenAPI, so skills are grounded in the Cooper SDK runtime
+  and device tooling rather than HTTP operations.
+skills:
+  - file: ambarella-ambarella-model-garden.md
+    name: ambarella-model-garden
+    description: Query, sync, and benchmark HuggingFace Ambarella Model Garden .bin models.
+  - file: ambarella-cooper-expert-guide.md
+    name: cooper-expert-guide
+    description: Living knowledge base of Cooper/Ambarella skill pitfalls and verified fixes.
+  - file: ambarella-cooper-performance.md
+    name: cooper-performance
+    description: Live CPU, memory, load, DRAM, and bandwidth performance on Cooper devices.
+  - file: ambarella-cooper-peripheral.md
+    name: cooper-peripheral
+    description: Enumerate Cooper camera peripherals (VIN controllers, VSRC, sensors) and stream readiness.
+  - file: ambarella-cooper-pipeline.md
+    name: cooper-pipeline
+    description: Deploy and run distributed Cooper REST inference pipelines on device.
+  - file: ambarella-cooper-remote-device.md
+    name: cooper-remote-device
+    description: SSH/rsync bridge to run device skills against a remote Cooper board.
+  - file: ambarella-cooper-sdk.md
+    name: cooper-sdk
+    description: Cooper SDK overview, inventory, and binary availability on device.
+  - file: ambarella-cooper-system.md
+    name: cooper-system
+    description: Gather Cooper device hardware/system specs and resolve chipset/BSP/arch.
+  - file: ambarella-cooper-video-stream.md
+    name: cooper-video-stream
+    description: Start, stop, or query Cooper video push streaming (RTSP preview, VCA canvas).

@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: live probe of https://www.ambarella.com/.well-known/*
+host: https://www.ambarella.com
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 200
+    file: ambarella-security.txt
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog            # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  Apex ambarella.com/.well-known/* 301-redirects to www.ambarella.com. Only a
+  security.txt (RFC 9116) is published; it lists a PSIRT contact
+  (mailto:psirt@ambarella.com) and an Expires date of 2024-09-01 (stale).

@@ -1,0 +1,35 @@
+# Ambarella
+
+> Ambarella is a fabless semiconductor company (NASDAQ: AMBA) that designs low-power system-on-chip (SoC) processors for edge AI and computer vision. Its CVflow architecture powers intelligent cameras, automotive ADAS/autonomous driving, robotics, security, and industrial edge-AI devices. Ambarella does not expose a public HTTP/REST API; developers work through the Cooper Developer Platform, the CVflow SDK/toolchain, the Model Garden on HuggingFace, and a published set of on-device Agent Skills.
+
+## Developer
+- [Developer Zone](https://www.ambarella.com/developer/): Ambarella developer portal — resources, learning, support.
+- [Cooper Developer Platform](https://www.ambarella.com/cooper/): The Cooper Foundry platform for on-device AI development.
+- [Learning Center](https://www.ambarella.com/developer/learning/): Documentation, guides, and learning resources.
+- [Model Garden](https://www.ambarella.com/developer/model-garden/): Optimized models for Ambarella CVflow SoCs (also on HuggingFace).
+- [Agentic Blueprints](https://www.ambarella.com/developer/agentics/): Industry agent-workflow blueprints (Visual Flow Designer).
+- [Developer FAQs](https://www.ambarella.com/developer/faqs/): Frequently asked developer questions / support.
+
+## Code & Models
+- [GitHub org: Ambarella-Inc](https://github.com/Ambarella-Inc): 19 public repositories (Cooper runtime, ROS, LeRobot, vLLM, tokenizers, model tooling).
+- [Cooper Runtime Skills](https://github.com/Ambarella-Inc/cooper-runtime-skills): Apache-2.0 Agent Skills for Cooper Foundry on-device development.
+- [HuggingFace: Ambarella](https://huggingface.co/Ambarella): Ambarella Model Garden models.
+
+## Agent Skills (this repo, saved verbatim)
+- [ambarella-model-garden](skills/ambarella-ambarella-model-garden.md): Query, sync, and benchmark HuggingFace Ambarella Model Garden .bin models.
+- [cooper-expert-guide](skills/ambarella-cooper-expert-guide.md): Knowledge base of Cooper/Ambarella skill pitfalls and verified fixes.
+- [cooper-performance](skills/ambarella-cooper-performance.md): Live CPU/memory/DRAM/bandwidth performance on Cooper devices.
+- [cooper-peripheral](skills/ambarella-cooper-peripheral.md): Enumerate Cooper camera peripherals and stream readiness.
+- [cooper-pipeline](skills/ambarella-cooper-pipeline.md): Deploy and run distributed Cooper REST inference pipelines on device.
+- [cooper-remote-device](skills/ambarella-cooper-remote-device.md): SSH/rsync bridge to run device skills against a remote Cooper board.
+- [cooper-sdk](skills/ambarella-cooper-sdk.md): Cooper SDK overview, inventory, and binary availability on device.
+- [cooper-system](skills/ambarella-cooper-system.md): Gather Cooper device hardware/system specs and chipset/BSP/arch.
+- [cooper-video-stream](skills/ambarella-cooper-video-stream.md): Start/stop/query Cooper video push streaming (RTSP, VCA canvas).
+
+## Company
+- [Website](https://www.ambarella.com): Company home.
+- [Blog](https://www.ambarella.com/blog/): Technology and product blog.
+- [News & Events](https://www.ambarella.com/news-events/): Press releases and events.
+- [Investor Relations](https://investor.ambarella.com/): NASDAQ: AMBA investor information.
+- [Privacy Policy](https://www.ambarella.com/privacy/): Privacy policy.
+- [Security (security.txt)](https://www.ambarella.com/.well-known/security.txt): PSIRT contact — psirt@ambarella.com.

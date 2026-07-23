@@ -1,8 +1,17 @@
 aid: ambarella
 name: Ambarella
-description: 'Ambarella is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: semiconductors. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Ambarella (NASDAQ: AMBA) is a fabless semiconductor company designing low-power
+  system-on-chip (SoC) processors for edge AI and computer vision. Its CVflow
+  architecture accelerates deep neural networks on-device for intelligent
+  cameras, automotive ADAS and autonomous driving, robotics, security, and
+  industrial applications. Ambarella does not publish a public HTTP/REST API;
+  developers engage through the Cooper Developer Platform, the CVflow SDK and
+  toolchain (compiler, debugger, Caffe/TensorFlow support), the Model Garden on
+  HuggingFace, Agentic Blueprints, and an Apache-2.0 set of on-device Agent
+  Skills for Cooper Foundry. This profile was surfaced as a portfolio company of
+  Matrix Partners and enriched with the provider's real public developer,
+  security, and agent surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/ambarella/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - matrix-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.ambarella.com/wp-content/uploads/amba.jpg
 tags:
 - Company
 - Semiconductors
+- Edge AI
+- Computer Vision
+- Artificial Intelligence
+- Automotive
+- Robotics
+- Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,47 @@ maintainers:
 common:
 - type: Website
   url: https://ambarella.com
+- type: DeveloperPortal
+  url: https://www.ambarella.com/developer/
+  name: Ambarella Developer Zone
+- type: Documentation
+  url: https://www.ambarella.com/developer/learning/
+  name: Learning Center
+- type: Support
+  url: https://www.ambarella.com/developer/faqs/
+  name: Developer FAQs
+- type: Blog
+  url: https://www.ambarella.com/blog/
+  name: Ambarella Blog
+- type: GitHubOrganization
+  url: https://github.com/Ambarella-Inc
+  name: Ambarella-Inc on GitHub
+- type: PrivacyPolicy
+  url: https://www.ambarella.com/privacy/
+  name: Privacy Policy
+- type: AgentSkill
+  url: skills/_index.yml
+  name: Cooper Runtime Agent Skills (9)
+- type: SecurityTxt
+  url: well-known/ambarella-security.txt
+  name: security.txt (RFC 9116)
+- type: WellKnown
+  url: well-known/ambarella-well-known.yml
+  name: Well-Known discovery index
+- type: VulnerabilityDisclosure
+  url: security/ambarella-vulnerability-disclosure.yml
+  name: PSIRT vulnerability disclosure
+- type: Security
+  url: https://www.ambarella.com/.well-known/security.txt
+  name: Security contact (PSIRT)
+- type: DomainSecurity
+  url: security/ambarella-domain-security.yml
+  name: Domain security posture
+- type: LLMsTxt
+  url: llms/ambarella-llms.txt
+  name: llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
