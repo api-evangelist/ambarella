@@ -49,7 +49,7 @@ tags:
 - Company
 - Semiconductors
 - Edge AI
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Automotive
 - Robotics
@@ -63,6 +63,7 @@ tags_raw:
 - Automotive
 - Robotics
 - Agents
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
