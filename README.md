@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ambarella is a company surfaced as a portfolio company of matrix-partners and added to the API Evangelist network as a stub for enrichment. Sector: semiconductors. This profile is a lead awaiting the enrichment pipeline.
+Ambarella (NASDAQ: AMBA) is a fabless semiconductor company designing low-power system-on-chip (SoC) processors for edge AI and computer vision. Its CVflow architecture accelerates deep neural networks on-device for intelligent cameras, automotive ADAS and autonomous driving, robotics, security, and industrial applications. Ambarella does not publish a public HTTP/REST API; developers engage through the Cooper Developer Platform, the CVflow SDK and toolchain (compiler, debugger, Caffe/TensorFlow support), the Model Garden on HuggingFace, Agentic Blueprints, and an Apache-2.0 set of on-device Agent Skills for Cooper Foundry. This profile was surfaced as a portfolio company of Matrix Partners and enriched with the provider's real public developer, security, and agent surfaces.
 
-Backed by: matrix-partners — https://ambarella.com
+**Areas:** Company · Semiconductors · Edge AI · Computer Vision · Artificial Intelligence · Automotive · Robotics · Agents
+
+## Ambarella on APIs.io
+
+Everything profiled for Ambarella is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ambarella/](https://apis.io/providers/ambarella/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ambarella Domain Security](https://apis.io/security/ambarella/ambarella-domain-security/)
+- [Ambarella Vulnerability Disclosure](https://apis.io/security/ambarella/ambarella-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ambarella.com)
+- [Documentation](https://www.ambarella.com/developer/learning/)
+- [Support](https://www.ambarella.com/developer/faqs/)
+- [Blog](https://www.ambarella.com/blog/)
+- [Security](https://www.ambarella.com/.well-known/security.txt)
+- [Privacy policy](https://www.ambarella.com/privacy/)
+- [GitHub](https://github.com/Ambarella-Inc)
+
+## API Evangelist rating
+
+**Kin Score 15.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 10.5 |
+
+**Agent readiness 3.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | yes |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ambarella/](https://apis.io/providers/ambarella/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ambarella: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ambarella/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
